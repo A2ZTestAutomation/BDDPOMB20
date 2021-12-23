@@ -36,6 +36,7 @@ public class OrderStepDef extends TestBase{
 	@When("User add Item to cart")
 	public void user_add_item_to_cart() {
 		resultPage.addItemToCart();
+		System.out.println("Item Added to Cart");
 
 	}
 
