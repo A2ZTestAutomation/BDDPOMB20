@@ -30,6 +30,7 @@ public class OrderStepDef extends TestBase{
 	@When("User search {string}")
 	public void user_search(String strItem) {
 		resultPage = homePage.searchItem(strItem);
+		System.out.println("Modified by Tester2");
 		
 	}
 
